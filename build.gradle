@@ -16,8 +16,9 @@ apply plugin: 'kotlin'
 
 repositories {
     mavenCentral()
-}git
+}
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    compile group: 'org.processing', name: 'core', version: '3.2.3'
 }
